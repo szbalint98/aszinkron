@@ -1,0 +1,27 @@
+{
+    "termekLISTA":[
+
+        {
+            "nev":"Cipő",
+            "szin":"Cipő"
+            
+        },
+        {
+            "nev":"kabat",
+            "szin":"kék"
+            
+        },
+        {
+            "nev":"póló",
+            "szin":"zöld"
+            
+        },{
+            "nev":"naci",
+            "szin":"sarga"
+            
+        }
+
+
+
+    ]
+}
