@@ -9,6 +9,8 @@ export function getKeres(vegpont, callback){
 
 getKeres("adatok.json",megjel)
 getKeres("https://pokeapi.co/api/v2/pokemon/ditto",megjelpokemon)
+getKeres("https://pokeapi.co/api/v2/pokemon/seel",megjelpokemon)
+getKeres("https://pokeapi.co/api/v2/pokemon/pikachu",megjelpokemon)
 console.log("2. üzi")
 function megjel(adat){
     console.log(adat)
@@ -19,7 +21,7 @@ function megjel2(adat){
 }
 
 function megjelpokemon(adat){
-    $("body").append(`<h2>${adat.name}</h2>`)
-    $("body").append(`<h2>${adat.ability}</h2>`)
-    $("body").append(`<img src=${adat.sprites.front_default} alt="">`)
+    $("body").append(`<div><h2>Név: ${adat.name}</h2></div>`)
+    $("body").append(`<div><h2>Magasság: ${adat.height}</h2></div>`)
+    $("body").append(`<div><img src=${adat.sprites.front_default} alt=""></div>`)
 }
